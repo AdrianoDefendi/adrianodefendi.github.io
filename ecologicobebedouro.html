@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Purific - WebApp</title>
+		<meta name="description" content="WebApp Purific">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/custom.css">
+		
+		<link rel="manifest" href="manifest.json">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="img/icon.png">
+		<meta name="theme-color" content="#0e9c8c">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="Shopping">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="img/icon.png">
+		<meta name="msapplication-TileColor" content="#0e9c8c">
+		
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<script>
+		if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+			window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+		</script>
+    </head>
+
+    <body class="white">
+		<!--NAVBAR-->
+		<div class="navbar-fixed hide-on-large-only">
+			<nav class="teal accent-4">
+			  <div class="nav-wrapper">
+				<a href="#!" class="brand-logo waves-effect">Purific Ecológico</a>
+				<a href="agua.html" data-activates="mobile-demo" class="button-collapse waves-effect waves-block waves-light"><i class="material-icons">arrow_back</i></a>
+			  </div>
+			</nav>
+		</div>
+		
+		<div class="navbar-fixed hide-on-med-and-down">
+			<nav>
+				<div class="nav-wrapper light-blue darken-1">
+					<a href="#"><img class="brand-logo center" style="height:40px; margin-top:0.3em;" src="img/vert-logo.svg"></a>
+						<ul id="nav-mobile" class="left hide-on-med-and-down">
+							<li><a href="agua.html"><i class="material-icons">arrow_back</i></a></li>
+						</ul>
+				</div>
+			</nav>
+		</div>
+		<!--SLIDER-->
+		<div class="slider">
+			<ul class="slides">
+				<li>
+					<img src="img/agua/EcologicoBebedouro-B.jpg">
+				</li>
+				<li>
+					<img src="img/agua/EcologicoBebedouro-P.jpg">
+				</li>
+				<li>
+					<img src="img/agua/EcologicoBebedouro-V.jpg">
+				</li>
+			</ul>
+		</div>
+		<!--CONTEUDO-->
+		<div class="container">
+			<div class="row">
+				<h3>Purific Ecológico para bebedouro</h3>
+				<p>Prático, moderno e ecologicamente correto, o Purificador Purific Ecológico é a melhor opção para médio consumo de água na substituição do galão. Possui a opção instalação de abastecimento automático e todos os benefícios dos purificadores Purific.</p>
+			</div>
+			<div class="row">
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Capacidade: 10 Litros</h5>
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Produto certificado</h5>
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Substitui galões</h5>
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Campo magnético</h5>
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Infravermelho longo</h5>
+				<h5> <img src="img/banner.jpg" style="height:0.8em; width:0.8em" alt="" class="circle"> Dois elementos filtrantes</h5>
+			</div>	
+		</div>
+		<!--Refis compatíveis-->
+		<div class="col s12 m12">
+			<div class="carousel center-align">
+				<h4 class="light-blue-text text-lighten-2">Refis compatíveis:</h4>
+				<a class="carousel-item" href="refil/vida.html">
+				<img src="img/agua/refil.jpg">
+				<h5>Refil Vida</h5>
+				</a>
+				<a class="carousel-item" href="#two!">
+				<img src="img/agua/puricell.jpg">
+				<h5>Refil Puricell</h5>
+				</a>
+				<a class="carousel-item" href="#three!">
+				<img src="img/agua/camadas.jpg">
+				<h5>Refil Camadas</h5>
+				</a>
+				<a class="carousel-item" href="#four!">
+				<img src="img/agua/mineral.jpg">
+				<h5>Refil Meneral</h5>
+				</a>
+				<a class="carousel-item" href="index.html">
+				<img src="img/agua/low-fluor.jpg">
+				<h5>Refil Low Flúor</h5>
+				</a>
+			</div>
+		</div>
+				
+     <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Materializecss Slider-->
+        <script>
+            $(document).ready(function () {
+                $('.slider').slider({full_width: true});
+            });
+        </script>
+		<script>
+			$(document).ready(function(){
+			  $('.carousel').carousel();
+			});
+		</script>
+		<script>
+			$('.carousel.carousel-slider').carousel({fullWidth: true});
+		</script>
+	</body>
+  </html>

@@ -1,0 +1,48 @@
+body {background-color:#dadada}
+.logo {
+	margin-top:1.6em;
+}
+.parallax-container {
+    height: 210px;
+}
+
+.jae {
+	margin-top:-3em;
+}
+
+.mg1 {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color:#fff;
+	margin-bottom:0.6em;
+	margin-top:-30px;
+	height: 80px;
+}
+.mg1 .input-field {
+	margin-top: 1.1em;
+}
+.gg {
+	padding:8px 2px 1px 2px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color:#fff;
+	margin-bottom:1.2em;
+	line-height: 18px;
+	padding-left:8px;
+	padding-right:8px;
+}
+.ico {
+	height:4em;
+	width:auto;
+}
+
+.fullbg {
+	background-color:#0a9f81;
+	background: url(../img/banner.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

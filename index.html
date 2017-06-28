@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Purific - WebApp</title>
+    <meta name="description" content="WebApp Purific">
+	
+	<!--Autocomplete-->
+	<link href="css/easy-autocomplete.min.css" rel="stylesheet" type="text/css">
+	<!-- Using jQuery with a CDN -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.easy-autocomplete.min.js" type="text/javascript" ></script>
+	
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#0e9c8c">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#0e9c8c">
+	
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "sergiolopes.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+	
+</head>
+
+    <body>
+		<!-- LOGO -->
+		<div class="parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<div class="row center">
+						<img class="logo col s8 m4 l2 responsive-img offset-s2 offset-m4 offset-l5" src="img/logo.svg">
+					</div>
+				</div>
+			</div>
+			<div class="parallax"><img src="img/banner.jpg" style="display: block;"></div>
+		</div>
+		
+		<!--BUSCA-->
+		<div class="row">
+			<div class="container">
+				<div class="mg1 z-depth-1 hoverable col s12 m12">
+					<div class="input-field">
+						<i class="material-icons prefix">search</i>
+						<input class="center-align " type="text" id="funky" placeholder="Do que você precisa agora?">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ICONES -->
+		<div class="container">
+			<div class="row">
+				<div class="col s4 m4 center">
+					<a href="http://lfp.purific.com.br/" target="_blank">
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/lfp.svg" alt="Acessar seu Sistema LFP" class="responsive-img">
+							<p><b>Sistema LFP</b></p>
+						</div>
+					</a>
+				</div>
+				<div class="col s4 m4 center">
+					<a href="http://mail.franquiapurific.com.br" target="_blank" >
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/email.svg" alt="Acessar seu Email oficial Purific" class="responsive-img">
+							<p><b>Email Purific</b></p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col s4 m4 center">
+					<a href="produtos.html">
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/catalogo.svg" alt="" class="responsive-img">
+							<p><b>Catálogo online</b></p>
+						</div>
+					</a>
+				</div>
+				<div class="col s4 m4 center">
+					<a href="https://purific.com.br/minha-conta/login" target="_blank">
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/lojaonline.svg" alt="Gerenciar a sua Loja online" class="responsive-img">
+							<p><b>Gerir loja online</b></p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col s4 m4 center">
+					<a href="http://www.purificacademy.com/" target="_blank">
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/academy.svg" alt="Acessar a plataforma de treinamentos Purific" class="responsive-img">
+							<p><b>Aulas e treinamentos</b></p>
+						</div>
+					</a>
+				</div>
+				<div class="col s4 m4 center">
+					<a href="apoio.html">
+						<div class="gg hoverable z-depth-3">
+							<img class="ico" src="img/materiais.svg" alt="Materiais de marketing, laudos e demais materiais de venda" class="responsive-img">
+							<p><b>Materiais de apoio</b></p>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+	<script>
+
+		/*
+		var options = {
+			url: "resources/countries.json",
+
+			getValue: "name",
+
+			list: {
+				match: {
+					enabled: true
+				},
+				maxNumberOfElements: 5,
+
+				showAnimation: {
+					type: "fade"
+				},
+				hideAnimation: {
+					type: "fade"
+				}
+			},
+
+		};
+		*/
+
+		var options = {
+			data: [
+					{
+					"product_title": "Acessar email oficial da Purific",
+					"icon": "", 
+					"page_link": "http://mail.franquiapurific.com.br/"
+					},
+					{
+					"product_title": "Fazer login o Sistema LFT",
+					"icon": "",
+					"page_link": "http://lfp.purific.com.br/"
+					},
+					{
+					"product_title": "Fazer login na loja online",
+					"icon": "",
+					"page_link": "https://purific.com.br/minha-conta/login"
+					},
+					{
+					"product_title": "Catálogo online de produtos",
+					"icon": "",
+					"page_link": "http://www.site.com/page.html"
+					},
+					{
+					"product_title": "Linha Água Saudável",
+					"icon": "",
+					"page_link": "agua.html"
+					},
+					{
+					"product_title": "Nova Jarra Purific Pratic",
+					"icon": "",
+					"page_link": "pratic.html"
+					}
+					    
+					    
+					],
+            
+
+			getValue: "product_title",
+
+			list: {
+                maxNumberOfElements: 8,
+				match: {
+					enabled: true
+				}
+			},
+            
+       		template: {
+				type: "custom",
+				method: function(value, item) {
+					return "<a href='" + item.page_link + "' >" + value + "</a>";
+				}
+			}
+		};
+
+		$("#funky").easyAutocomplete(options);
+
+		</script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	
+	</body>
+	
+  </html>

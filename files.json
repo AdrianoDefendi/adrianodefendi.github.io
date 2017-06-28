@@ -1,0 +1,19 @@
+var files = [
+	"files.json",
+	"index.html"
+	"manifest.json",
+	"agua.html",
+	"css/custom.css",
+	"css/materialize.min.css",
+	"img/academy.svg",
+	"img/banner.jpg",
+	"img/catalogo.svg",
+	"img/email.svg",
+	"img/franquias.svg",
+	"img/lfp.svg",
+	"img/logo.svg",
+	"img/lojaonline.svg",
+	"img/icon.png",
+	"js/materialize.min.js",
+	"js/vendor/quagga.min.js"
+];
