@@ -208,18 +208,9 @@
 
 		</script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script>
-	    	if (navigator.serviceWorker.controller) {
-	  console.log('[PWA Builder] active service worker found, no need to register')
-	} else {
-	  //Register the ServiceWorker
-	  navigator.serviceWorker.register('pwabuilder-sw.js', {
-	    scope: './'
-	  }).then(function(reg) {
-	    console.log('Service worker has been registered for scope:'+ reg.scope);
-	  });
-}
-		</script>
+	<script type="text/javascript" src="pwabuilder-sw.js"></script>
+	<script type="text/javascript" src="pwabuilder-sw-register.js"></script>
+
 	    
 	</body>
 	
