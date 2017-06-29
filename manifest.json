@@ -1,5 +1,5 @@
 {
-  "short_name": "Purific WebApp",
+  "short_name": "purific",
   "name": "Purific WebApp",
   "icons": [
     {
@@ -8,9 +8,11 @@
       "type": "image/png"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "https://adrianodefendi.github.io/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#F77F00",
-  "background_color": "#fff"
+  "background_color": "#ffffff",
+  "lang": "pt",
+  "description": "Aplicativo para franqueados Purific"
 }
