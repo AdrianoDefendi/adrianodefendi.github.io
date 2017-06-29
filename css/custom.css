@@ -46,3 +46,10 @@ body {background-color:#dadada}
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+@media screen and (max-width: 550px) {
+    .gg {
+		min-height:135px;
+    }
+}
+
