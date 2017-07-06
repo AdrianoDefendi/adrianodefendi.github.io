@@ -1,5 +1,5 @@
 {
-  "short_name": "purific",
+  "short_name": "Purific",
   "name": "Purific WebApp",
   "icons": [
     {
@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://adrianodefendi.github.io/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#F77F00",
