@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Purific - WebApp</title>
+		<meta name="description" content="WebApp Purific">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/custom.css">
+		
+		<link rel="manifest" href="manifest.json">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="img/icon.png">
+		<meta name="theme-color" content="#0e9c8c">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="Shopping">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="img/icon.png">
+		<meta name="msapplication-TileColor" content="#0e9c8c">
+		
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<script>
+		if (window.location.protocol != "https:" && window.location.hostname == "adrianodefendi.github.io")
+			window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+		</script>
+    </head>
+
+    <body>
+
+		<div class="navbar-fixed hide-on-large-only">
+			<nav class="teal accent-4">
+			  <div class="nav-wrapper">
+				<a href="#!" class="brand-logo waves-effect">Materiais de apoio</a>
+				<a href="index.html" data-activates="mobile-demo" class="button-collapse waves-effect waves-block waves-light"><i class="material-icons">arrow_back</i></a>
+			  </div>
+			</nav>
+		</div>
+		
+		<div class="navbar-fixed hide-on-med-and-down">
+			<nav>
+				<div class="nav-wrapper light-blue darken-1">
+					<a href="#"><img class="brand-logo center" style="height:40px; margin-top:0.3em;" src="img/vert-logo.svg"></a>
+						<ul id="nav-mobile" class="left hide-on-med-and-down">
+							<li><a href="index.html"><i class="material-icons">arrow_back</i></a></li>
+						</ul>
+				</div>
+			</nav>
+		</div>
+  
+		<div class="container">
+		<div class="row">
+			<div class="col l6">
+				<div class="row">	  
+					<div class="col s6 m6 l6">
+						<a href="http://printi.com.br/purific">
+							<div class="card hoverable center">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/printi.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Gráfica online</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col s6 m6 l6">
+						<div class="card hoverable center">
+							<a href="#maestro">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/drive.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Google Drive</span>
+								</div>
+								
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col l6">
+				<div class="row">
+					<div class="col s6 m6 l6">
+						<div class="card hoverable center">
+							<a href="#osteocad3">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/laudos.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Laudos e pesquisas</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					<div class="col s6 m6 l6">
+						<div class="card hoverable center">
+							<a href="#osteod3">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="img/facebook.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Posts da quinzena</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		</div>
+			
+		</div>
+		</div>
+		<!--MODAL Essentia-->
+		<div id="essentia" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Purific Essentia</h4>
+				<p>Purific Essentia é um suplemento à base de óleo de peixe e fonte de ácidos graxos poli-insaturados, essencial para o seu dia a dia.</p>
+				
+				Composição: <b>Ômega 3 1000mg</b></br>
+				Quantidade: <b>60 cápsulas</b></br>
+				Sugestão de uso: <b>Tomar 2 cápsulas ao dia.</b></br></p>
+				
+				<img class="responsive-img" src="img/nutri/Purific_Essentia.jpg">
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Maestro-->
+		<div id="maestro" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Purific Maestro</h4>
+				<p>Purific Maestro é um suplemento mineral à base de cloreto de magnésio hexahidratado, composto que rege diversas reações químicas, mantendo o seu organismo em harmonia.</p>
+				
+				Composição: <b>Cloreto de Magnésio P.A. 500mg</b></br>
+				Quantidade: <b>60 cápsulas</b></br>
+				Sugestão de uso: <b>Tomar 2 cápsulas ao dia.</b></br></p>
+				
+				<img class="responsive-img" src="img/nutri/Purific_Maestro.jpg">
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Osteo CaD3-->
+		<div id="osteocad3" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Purific Osteo CaD3</h4>
+				<p>Purific Osteo CaD3 é o suplemento de cálcio e vitamina D3 combinação que ajuda na estruturação e fortalecimento ósseo.</p>
+				
+				Composição: <b>Carbonato de cálcio e colecalciferol 625 mg</b></br>
+				Quantidade: <b>60 cápsulas</b></br>
+				Sugestão de uso: <b>Tomar 4 cápsulas ao dia.</b></br></p>
+				
+				<img class="responsive-img" src="img/nutri/Purific_Osteo CAD3.jpg">
+
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Purific Osteo D3-->
+		<div id="osteod3" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Purific Osteo D3</h4>
+				<p>Purific Osteo D3 é composto por vitamina D que exerce um papel na absorção e regulação do cálcio e do fósforo, ajudando no desenvolvimento de ossos, dentes e pele.</p>
+				
+				Composição: <b>Colecalciferol 250 mg</b></br>
+				Quantidade: <b>60 cápsulas</b></br>
+				Sugestão de uso: <b>Tomar 1 cápsula por dia.</b></br></p>
+				
+				<img class="responsive-img" src="img/nutri/Purific_OsteoD3.jpg">
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Purific Haircare-->
+		<div id="haircare" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Purific Haircare</h4>
+				<p>Purific Haircare é um suplemento vitamínico e mineral com ação nutricional que favorece o fortalecimento, o crescimento e a beleza dos cabelos e das unhas.</p>
+				
+				Composição: <b>Mix de vitaminas e minerais 1000 mg</b></br>
+				Quantidade: <b>30 cápsulas</b></br>
+				Sugestão de uso: <b>Tomar 1 cápsula por dia.</b></br></p>
+				
+				<img class="responsive-img" src="img/nutri/Purific_HairCare.jpg">
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Sal Rosa-->
+		<div id="sal" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Sal Rosa do Himalaia Purific</h4>
+				<p>Composição: Cloreto de Sódio, Cálcio, Magnésio e Iodo.</br>• Não contém glúten; </br>• Produto vegano; </br>• Livre de lactose.</p>
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Purimix Maça-->
+		<div id="purimix_mc" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Shake Purimix Maça</h4>
+				<p>Shake Purimix sabores: Maça com baunilha, Chocolate com avelã e Morango com chantily.</p>
+				
+				<img class="responsive-img" src="img/nutri/purimix.jpg">
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+		
+		<!--MODAL Purimix Morango-->
+		<div id="purimix_mg" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="light-blue-text text-lighten-2">Shake Purimix Maça</h4>
+				<p>Shake Purimix sabores: Maça com baunilha, Chocolate com avelã e Morango com chantily.</p>
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Voltar</a>
+			</div>
+		</div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script>
+			$(document).ready(function(){
+			// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+			$('.modal').modal();
+		  });
+		</script>
+  
+	</body>
+  </html>
